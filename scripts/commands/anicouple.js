@@ -1,9 +1,10 @@
 module.exports.config = {
     name: "anicouple",
     version: "1.0.5",
+    premium: false,
     permission: 0,
     prefix: true,
-    credits: "Nayan",
+    credits: "Alvi",
     description: "Anime couple photo",
     category: "prefix",
     cooldowns: 2
