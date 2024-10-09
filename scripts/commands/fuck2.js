@@ -71,6 +71,6 @@ module.exports.run = async function ({ event, api, args }) {
     if (!mention[0]) return api.sendMessage("Please mention 1 person.", threadID, messageID);
     else {
         const one = senderID, two = mention[0];
-        return makeImage({ one, two }).then(path => api.sendMessage({ body: "╭──────•◈•──────╮\n         🄰🄻🅅🄸🄱🄾🅃        \n 🥵______নারী তার শখের পুরুষ কে অসংখ্য স্টাইলে চুদতে দেয়-(👌👈)-💯🤰\n╰──────•◈•──────╯", attachment: fs.createReadStream(path) }, threadID, () => fs.unlinkSync(path), messageID));
+        return makeImage({ one, two }).then(path => api.sendMessage({ body: "╭──────•◈•──────╮\n         -𝗕Ø𝗦𝗦 𝗧𝗔𝗡𝗩𝗜𝗥_//-🫦        \n 🥵______নারী তার শখের পুরুষ কে অসংখ্য স্টাইলে চুদতে দেয়-(👌👈)-💯🤰\n╰──────•◈•──────╯", attachment: fs.createReadStream(path) }, threadID, () => fs.unlinkSync(path), messageID));
     }
       }
