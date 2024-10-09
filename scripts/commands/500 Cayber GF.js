@@ -24,8 +24,9 @@ const link = [
 module.exports.config = {
   name: "gf",
   version: "1.0.0",
+  premium: false,
   permssion: 0,
-  credits: "Islamick Cyber Chat",
+  credits: "Alvi",
   prefix :true,
   description: "auto reply to gf",
   category: "noprefix",
