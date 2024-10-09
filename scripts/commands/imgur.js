@@ -1,8 +1,9 @@
 module.exports.config = {
-  name: "imgur",
+  name: "imgur2",
   version: "1.0.0",
+  premium: false,
   permission: 0,
-  credits: "Nayan",
+  credits: "Alvi",
   description: "",
   prefix: true,
   category: "user",
