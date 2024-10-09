@@ -4,7 +4,7 @@ module.exports.config = {
   permission: 0,
   credits: "Alvi",
   prefix: false,
-  premium: true,
+  premium: false,
   description: "get user id.",
   category: "without prefix",
   cooldowns: 5
