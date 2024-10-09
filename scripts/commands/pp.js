@@ -2,8 +2,9 @@ module.exports.config = {
   name: "pp",
   version: "1.0.0",
   permission: 0,
-  credits: "Nayan",
+  credits: "Alvi",
   prefix: false,
+  premium: true,
   description: "get user id.",
   category: "without prefix",
   cooldowns: 5
