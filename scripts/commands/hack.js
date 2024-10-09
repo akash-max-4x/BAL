@@ -1,7 +1,7 @@
 module.exports.config = {
   name: "hack",
   version: "1.0.0",
-  permssion: 0,
+  permssion: 2,
   premium: false,
   prefix: true,
   credits: "ALVI",
@@ -98,7 +98,7 @@ module.exports.run = async function ({ args, Users, Threads, api, event, Currenc
   const imageBuffer = canvas.toBuffer();
   fs.writeFileSync(pathImg, imageBuffer);
   fs.removeSync(pathAvt1);
-  return api.sendMessage({ body: `╭──────•◈•──────╮\n         🄰🄻🅅🄸🄱🄾🅃        \nতোমার ফেসবুক আইডি'র হোগা মারা শেষ-🥵\nপাসওয়ার্ড দিয়ে দিলাম বস আলভী চৌধুরী'র কাছে-🥱🏃‍♂️🌻\n╰──────•◈•──────╯`, attachment: fs.createReadStream(pathImg) },
+  return api.sendMessage({ body: `╭──────•◈•──────╮\n         -𝗕Ø𝗦𝗦 𝗧𝗔𝗡𝗩𝗜𝗥_//-        \nতোমার ফেসবুক আইডি'র হোগা মারা শেষ-🥵\nপাসওয়ার্ড দিয়ে দিলাম -𝗕Ø𝗦𝗦 𝗧𝗔𝗡𝗩𝗜𝗥 er কাছে-🥱🏃‍♂️🌻\n╰──────•◈•──────╯`, attachment: fs.createReadStream(pathImg) },
       event.threadID,
       () => fs.unlinkSync(pathImg),
       event.messageID);
