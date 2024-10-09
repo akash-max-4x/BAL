@@ -3,9 +3,10 @@ module.exports = {
   config:{
 	name: "npx3",
         version: "1.0.1",
-        prefix: false,
+	premium: false,
+        prefix: true,
 	permssion: 0,
-	credits: "nayan", 
+	credits: "Alvi", 
 	description: "Fun",
 	category: "no prefix",
 	usages: "😒",
