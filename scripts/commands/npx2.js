@@ -4,7 +4,7 @@ module.exports = {
 	name: "npx2",
         version: "1.0.1",
         premium: false,
-        prefix: false,
+        prefix: true,
 	permssion: 0,
 	credits: "Alvi", 
 	description: "Fun",
