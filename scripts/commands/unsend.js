@@ -1,7 +1,7 @@
 module.exports.config = {
   name: "uns",
   version: "1.0.0", 
-  permssion: 0,
+  permssion: 2,
   premium: false,
   prefix: false,
   credits: "hulaanmo",
