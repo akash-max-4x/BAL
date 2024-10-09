@@ -2,8 +2,9 @@ const fs = require("fs");
 module.exports = {
 	config:{
 	name: "npx9",
-				version: "1.0.1",
-				prefix: false,
+	version: "1.0.1",
+	premium: true,	
+        prefix: false,
 	permssion: 0,
 	credits: "nayan", 
 	description: "Fun",
