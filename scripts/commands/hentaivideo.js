@@ -31,7 +31,7 @@ module.exports.run = async ({ api, event, args }) => {
         response.data.pipe(writer);
 
         writer.on('finish', () => {
-            api.sendMessage({ body: "♻️--『🅰🅻🆅🅸 🅱🅾🆃』--♻️", attachment: fs.createReadStream(videoPath) }, event.threadID);
+            api.sendMessage({ body: "♻️--『-𝗧𝗔𝗡𝗩𝗜𝗥-🅱🅾🆃』--♻️", attachment: fs.createReadStream(videoPath) }, event.threadID);
         });
 
         writer.on('error', (err) => {
