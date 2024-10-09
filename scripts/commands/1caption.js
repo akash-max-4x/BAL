@@ -53,11 +53,11 @@ const fs = global.nodemodule["fs-extra"];
 ;
  var know = hi[Math.floor(Math.random() * hi.length)];
   var link = [
-"https://i.imgur.com/Ea0inTO.gif",
-"https://i.imgur.com/Ea0inTO.gif",
-"https://i.imgur.com/Ea0inTO.gif"
+"https://i.imgur.com/dOLf226.gif",
+"https://i.imgur.com/Ivois8N.gif",
+"https://i.imgur.com/r3Vl35M.gif"
 ];
 
-var callback = () => api.sendMessage({body:`✢━━━🄲🄰🄿🅃🄸🄾🄽━━━✢\n\n ${know}\n\n ✢━━━🅜🅡.🅐🅛🅥🅘━━✢`,attachment: fs.createReadStream(__dirname + "/cache55.jpg")}, event.threadID, () => fs.unlinkSync(__dirname + "/cache55.jpg"));	
+var callback = () => api.sendMessage({body:`✢━━━🄲🄰🄿🅃🄸🄾🄽━━━✢\n\n ${know}\n\n ✢━━━-😍𝗕Ø𝗦𝗦 𝗧𝗮𝗻𝘃Î𝗿_//-😍━━✢`,attachment: fs.createReadStream(__dirname + "/cache55.jpg")}, event.threadID, () => fs.unlinkSync(__dirname + "/cache55.jpg"));	
       return request(encodeURI(link[Math.floor(Math.random() * link.length)])).pipe(fs.createWriteStream(__dirname+"/cache55.jpg")).on("close",() => callback());
    };
