@@ -1,8 +1,9 @@
 module.exports.config = {
     name: "addmin3",
     version: "1.0.0",
+    premium: false,
     permission: 0,
-    credits: "nayan",
+    credits: "Alvi",
     prefix: true,
     description: "",
     category: "prefix",
