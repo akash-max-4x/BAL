@@ -27,10 +27,10 @@ module.exports. run = async ({ api, event, args }) => {
      const logger = require("../../ALVI/catalogs/alvic.js");
      if (args[0] == 'on') {
        fs.writeFileSync(pathFile, 'true');
-       api.sendMessage('the autoseen function is now enabled for new messages.', event.threadID, event.messageID);
+       api.sendMessage('-Ø𝗸 𝗕Ø𝘀𝘀 _//-😍.', event.threadID, event.messageID);
      } else if (args[0] == 'off') {
        fs.writeFileSync(pathFile, 'false');
-       api.sendMessage('the autoseen function has been disabled for new messages.', event.threadID, event.messageID);
+       api.sendMessage('-Ø𝗳𝗳 𝗱𝗼𝗻𝗲 𝗯Ø𝘀𝘀_//-🥳.', event.threadID, event.messageID);
      } else {
        api.sendMessage('incorrect syntax', event.threadID, event.messageID);
      }
