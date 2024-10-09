@@ -1,8 +1,9 @@
 module.exports.config = {
   name: "autotime",
 version: "1.0.0",
+premium: false,
 permission: 0,
-credits: "ArYan",
+credits: "Alvi",
 description: "msg",
 prefix: true, 
 category: "user", 
