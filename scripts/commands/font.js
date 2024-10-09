@@ -3,8 +3,9 @@ const axios = require('axios');
 module.exports.config = {
   name: 'font',
   version: '1.1.0',
+  premium: false,
   permssion: 0,
-  credits: 'Islamick Cyber Chat',//**Don't change my stall code
+  credits: 'Alvi',//**Don't change my stall code
   prefix:true,
   description: 'Converts text into any Font',
   category: 'Tools',
