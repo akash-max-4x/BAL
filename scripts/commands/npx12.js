@@ -2,10 +2,11 @@ const fs = require("fs");
 module.exports = {
   config:{
   name: "npx12",
-        version: "1.0.1",
-        prefix: false,
+  version: "1.0.1",
+  premium: false,  
+  prefix: true,
   permssion: 0,
-  credits: "nayan", 
+  credits: "Alvi", 
   description: "Fun",
   category: "no prefix",
   usages: "😒",
