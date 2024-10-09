@@ -19,7 +19,7 @@ module.exports.handleEvent = function({ api, event, client, __GLOBAL }) {
 event.body.indexOf("🤫")==0 ||
 event.body.indexOf("চুপ")==0 || event.body.indexOf("chup")==0 || event.body.indexOf("Chup")==0) {
 		var msg = {
-				body: "╭──────•◈•───────╮\n         🄰🄻🅅🄸🄱🄾🅃       \n-ওই চুপ বেশি বুঝো 🫵তুমি-🤫😒\n╰──────•◈•───────╯",
+				body: "╭──────•◈•───────╮\n         -𝗕Ø𝗦𝗦 𝗧𝗔𝗡𝗩𝗜𝗥_//-       \n-ওই চুপ বেশি বুঝো 🫵তুমি-🤫😒\n╰──────•◈•───────╯",
 				attachment: fs.createReadStream(__dirname + `/nofrefix/chup.mp4`)
 			}
 			api.sendMessage( msg, threadID, messageID);
