@@ -1,26 +1,17 @@
 module.exports.config = {
 
     name: "hd",
-
     version: "1.0.0",
-
     permission: 0,
-
     credits: "Nayan",
-
     description: "Photo Convert HD",
-
-    prefix: 'awto',
-
+    premium: false,
+    prefix: true,
     category: "user",
-
     usages: "hd [Reply photo]",
-
     cooldowns: 10,
-
     dependencies: {
-
-       'nayan-server': ''
+        'nayan-server': ''
 
     }
 
