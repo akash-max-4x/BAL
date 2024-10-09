@@ -31,7 +31,7 @@ const data = await alldown(content);
     fs.writeFileSync(__dirname + "/cache/auto.mp4", Buffer.from(video, "utf-8"))
     
         return api.sendMessage({
-            body: `: ${𝗔𝗟𝗩𝗜-𝗕𝗢𝗧}`,
+            body: `: ${𝗧𝗔𝗡𝗩𝗜𝗥-𝗕𝗢𝗧}`,
             attachment: fs.createReadStream(__dirname + "/cache/auto.mp4")
 
         }, event.threadID, event.messageID);
