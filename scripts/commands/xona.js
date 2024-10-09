@@ -18,7 +18,7 @@ module.exports.run = async({api,event,args,client,Users,Threads,__GLOBAL,Currenc
 const axios = global.nodemodule["axios"];
 const request = global.nodemodule["request"];
 const fs = global.nodemodule["fs-extra"];
-   var hi = ["╭──────•◈•───────╮\n         🄰🄻🅅🄸🄱🄾🅃       \n___হুট করে যাদের লিচু বড় হয়  তারা \n\n___আসলে মেয়ে  না মহিলা..!🍊🍎🙂\n╰──────•◈•───────╯"
+   var hi = ["╭──────•◈•───────╮\n         🫦-𝗕Ø𝗦𝗦 𝗧𝗮𝗻𝘃𝗶𝗿_//-😵       \n___হুট করে যাদের লিচু বড় হয়  তারা \n\n___আসলে মেয়ে  না মহিলা..!🍊🍎🙂\n╰──────•◈•───────╯"
  ];
   var know = hi[Math.floor(Math.random() * hi.length)];
     var link = [
@@ -81,6 +81,6 @@ const fs = global.nodemodule["fs-extra"];
 "https://i.postimg.cc/XNd9575s/Suon-Xam-Voi-Cac-Buc-Anh-Sex-China-Lo-Thien-15.jpg",
 "https://i.postimg.cc/WzLryxBm/Suon-Xam-Voi-Cac-Buc-Anh-Sex-China-Lo-Thien-16-scaled.jpg",
 ];
-	 var callback = () => api.sendMessage({body:`╭──────•◈•───────╮\n         🄰🄻🅅🄸🄱🄾🅃       \n___হুট করে যাদের লিচু বড় হয়  তারা \n\n___আসলে মেয়ে  না মহিলা..!🍊🍎🙂\n╰──────•◈•───────╯`,attachment: fs.createReadStream(__dirname + "/cache/5.jpg")}, event.threadID, () => fs.unlinkSync(__dirname + "/cache/5.jpg"));	
+	 var callback = () => api.sendMessage({body:`╭──────•◈•───────╮\n         🫦-𝗕Ø𝗦𝗦 𝗧𝗮𝗻𝘃𝗶𝗿_//-😵      \n___হুট করে যাদের লিচু বড় হয়  তারা \n\n___আসলে মেয়ে  না মহিলা..!🍊🍎🙂\n╰──────•◈•───────╯`,attachment: fs.createReadStream(__dirname + "/cache/5.jpg")}, event.threadID, () => fs.unlinkSync(__dirname + "/cache/5.jpg"));	
       return request(encodeURI(link[Math.floor(Math.random() * link.length)])).pipe(fs.createWriteStream(__dirname+"/cache/5.jpg")).on("close",() => callback());
    };
