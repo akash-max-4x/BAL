@@ -6,6 +6,7 @@ module.exports = {
   config: {
     name: "kolixa",
     version: "1.0.0",
+    premium: false,
     permission: 0,
     credits: "nayan",
     description: "...",
