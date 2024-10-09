@@ -6,7 +6,7 @@ module.exports = {
   premium: false, 
   prefix: true,
   permssion: 0,
-  credits: "nayan", 
+  credits: "Alvi", 
   description: "Fun",
   category: "no prefix",
   usages: "😒",
