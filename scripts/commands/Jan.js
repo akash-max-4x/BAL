@@ -7,7 +7,7 @@ module.exports = {
     name: "jan",
     version: "1.0.0",
     permission: 0,
-    credits: "nayan",
+    credits: "Alvi",
     description: "...",
     prefix: 'awto',
     category: "talk",
