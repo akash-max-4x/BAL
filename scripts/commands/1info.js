@@ -26,13 +26,12 @@ const time = process.uptime(),
 		seconds = Math.floor(time % 60);
 const moment = require("moment-timezone");
 var juswa = moment.tz("Asia/Dhaka").format("『D/MM/YYYY』 【hh:mm:ss】");
-var link = ["https://postimg.cc/V5k3FShb", 
+var link = ["https://i.postimg.cc/502V7BFq/Messenger-creation-191-C6998-AB3-D-4-FB2-B26-F-A6-DFCEFF386-D.jpg", 
             
-            "https://i.postimg.cc/vBv1hR1w/IMG-20241009-113436.jpg", 
-            
-            "https://postimg.cc/LYHGwh6w",
+            "https://i.postimg.cc/502V7BFq/Messenger-creation-191-C6998-AB3-D-4-FB2-B26-F-A6-DFCEFF386-D.jpg", 
+            "https://i.postimg.cc/502V7BFq/Messenger-creation-191-C6998-AB3-D-4-FB2-B26-F-A6-DFCEFF386-D.jpg",
 
-"https://i.postimg.cc/Zq1M2sWH/IMG-20241009-112728.jpg",
+"https://i.postimg.cc/502V7BFq/Messenger-creation-191-C6998-AB3-D-4-FB2-B26-F-A6-DFCEFF386-D.jpg",
             
             ""];
   
